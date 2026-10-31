@@ -60,16 +60,18 @@ modules:
       - install -Dm644 packaging/flatpak/im.hjc.LightPlayer.mime.xml /app/share/mime/packages/im.hjc.LightPlayer.xml
       - |
         set -e
-        for size in 16 32 48 64 256; do
+        for size in 16 24 32 48 64 128 256; do
           install -Dm644 "packaging/flatpak/icons/${size}x${size}/im.hjc.LightPlayer.png" \
             "/app/share/icons/hicolor/${size}x${size}/apps/im.hjc.LightPlayer.png"
         done
+      - install -Dm644 packaging/icons/app-icon.svg /app/share/icons/hicolor/scalable/apps/im.hjc.LightPlayer.svg
+      - install -Dm644 packaging/flatpak/icons/symbolic/im.hjc.LightPlayer-symbolic.svg /app/share/icons/hicolor/symbolic/apps/im.hjc.LightPlayer-symbolic.svg
       - install -Dm644 LICENSE /app/share/licenses/im.hjc.LightPlayer/LICENSE
       - install -Dm644 THIRDPARTY.txt /app/share/licenses/im.hjc.LightPlayer/THIRDPARTY.txt
     sources:
       - type: archive
-        url: https://github.com/hjc4869/LightPlayer/archive/refs/tags/v2.1.0.tar.gz
-        sha256: a6462cb73eefe8c9e7be223849f5b0d1a587ae26fa880007a0b2ee3426a64b53
+        url: https://github.com/hjc4869/LightPlayer/archive/refs/tags/v2.1.2.tar.gz
+        sha256: fe81493467bb5a8c751269ce719bfe551059615158d6ef1cda69be02fff171c2
       - nuget-sources.json
       - type: file
         path: nuget.config

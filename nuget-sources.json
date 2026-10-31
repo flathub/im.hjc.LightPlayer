@@ -1,10 +1,10 @@
 [
     {
         "type": "file",
-        "url": "https://github.com/hjc4869/Avalonia/releases/download/12.1.5-custom.20/Avalonia-NuGet-12.1.5-custom.20.zip",
-        "sha256": "5a6fbc41ed8a128a3ece00e3925301ca2ba6a47f62d04863baa2e2fa4bf17630",
+        "url": "https://github.com/hjc4869/Avalonia/releases/download/12.1.5-custom.21/Avalonia-NuGet-12.1.5-custom.21.zip",
+        "sha256": "314146a7d6e71bc065962d77760d659eedce5c5b3499d4481cd9d1a0ba9ca988",
         "dest": "artifacts/github-nuget/downloads",
-        "dest-filename": "Avalonia-NuGet-12.1.5-custom.20.zip",
+        "dest-filename": "Avalonia-NuGet-12.1.5-custom.21.zip",
         "only-arches": [
             "x86_64",
             "aarch64"
