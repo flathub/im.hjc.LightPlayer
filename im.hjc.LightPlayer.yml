@@ -70,8 +70,8 @@ modules:
       - install -Dm644 THIRDPARTY.txt /app/share/licenses/im.hjc.LightPlayer/THIRDPARTY.txt
     sources:
       - type: archive
-        url: https://github.com/hjc4869/LightPlayer/archive/refs/tags/v2.1.3.tar.gz
-        sha256: 7e3ed9ade49fa913748443150cd10de8de6f18041d6754da087a9e98c253b0bf
+        url: https://github.com/hjc4869/LightPlayer/archive/refs/tags/v2.2.0.tar.gz
+        sha256: 75f8de38cd6edd0bf67d334bedbdac2cc45bd04388275c7f1cf25cfeb2da475f
       - nuget-sources.json
       - type: file
         path: nuget.config
